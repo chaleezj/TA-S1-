@@ -1,4 +1,4 @@
-#Tugas Akhir S1 – Klasifikasi Bunga Anggrek Menggunakan CNN VGG-19
+# Tugas Akhir S1 – Klasifikasi Bunga Anggrek Menggunakan CNN VGG-19
 
 ## Identitas
 
@@ -57,4 +57,67 @@ Dataset mencakup **5 genus anggrek**, masing-masing ±250 citra:
 ## Metode yang Digunakan
 
 * **Model**: Convolutional Neural Network (CNN)
-* **Arsitekt
+* **Arsitektur**: VGG-19 (Transfer Learning)
+* **Framework**: TensorFlow & Keras
+* **Preprocessing**:
+
+  * Resize citra
+  * Normalisasi
+  * Data augmentation
+
+---
+
+## Lingkungan Pengembangan
+
+* **Bahasa Pemrograman**: Python
+* **Platform**: Google Colab
+* **Perangkat**: Laptop ASUS Nitro 5
+* **Library Utama**:
+
+  * TensorFlow
+  * Keras
+  * NumPy
+  * OpenCV
+  * Matplotlib
+  * Scikit-learn
+
+---
+
+## Evaluasi Model
+
+Evaluasi performa model dilakukan menggunakan:
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+
+Hasil pengujian menunjukkan bahwa penggunaan **dataset gabungan** memberikan performa klasifikasi yang lebih stabil dibandingkan penggunaan satu sumber dataset saja.
+
+---
+
+## Struktur Folder (Contoh)
+
+```
+├── dataset/
+│   ├── pribadi/
+│   ├── kaggle/
+│   └── gabungan/
+├── preprocessing/
+├── model/
+├── training/
+├── evaluation/
+├── results/
+└── README.md
+```
+
+---
+
+## Tujuan Penelitian
+
+* Mengimplementasikan CNN VGG-19 untuk klasifikasi bunga anggrek
+* Menganalisis pengaruh perbedaan sumber dataset terhadap akurasi model
+* Memberikan referensi penelitian di bidang **computer vision dan klasifikasi citra tanaman**
+
+---
