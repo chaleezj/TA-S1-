@@ -1,6 +1,6 @@
-# 📘 Tugas Akhir S1 – Klasifikasi Bunga Anggrek Menggunakan CNN VGG-19
+#Tugas Akhir S1 – Klasifikasi Bunga Anggrek Menggunakan CNN VGG-19
 
-## 🧑‍🎓 Identitas
+## Identitas
 
 * **Nama**: Yudha Nugraha
 * **Program Studi**: S1 Teknik Informatika
@@ -9,13 +9,13 @@
 
 ---
 
-## 📌 Judul Tugas Akhir
+## Judul Tugas Akhir
 
 **Klasifikasi Citra Bunga Anggrek Menggunakan Convolutional Neural Network (CNN) dengan Arsitektur VGG-19**
 
 ---
 
-## 📝 Deskripsi Singkat
+## Deskripsi Singkat
 
 Repository ini berisi implementasi dan dokumentasi **Tugas Akhir (Skripsi) jenjang S1** yang membahas tentang klasifikasi citra bunga anggrek menggunakan metode **Deep Learning**, khususnya **Convolutional Neural Network (CNN)** dengan arsitektur **VGG-19**.
 
@@ -23,7 +23,7 @@ Penelitian ini bertujuan untuk mengklasifikasikan bunga anggrek ke dalam beberap
 
 ---
 
-## 🌸 Dataset
+## Dataset
 
 Dataset yang digunakan terdiri dari **tiga sumber utama**:
 
@@ -42,7 +42,7 @@ Dataset yang digunakan terdiri dari **tiga sumber utama**:
 
    * Kombinasi dataset pribadi dan dataset Kaggle
 
-### 📊 Kelas / Genus Anggrek
+### Kelas / Genus Anggrek
 
 Dataset mencakup **5 genus anggrek**, masing-masing ±250 citra:
 
@@ -54,7 +54,7 @@ Dataset mencakup **5 genus anggrek**, masing-masing ±250 citra:
 
 ---
 
-## 🧠 Metode yang Digunakan
+## Metode yang Digunakan
 
 * **Model**: Convolutional Neural Network (CNN)
 * **Arsitekt
